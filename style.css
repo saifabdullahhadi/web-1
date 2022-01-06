@@ -1,0 +1,116 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+}
+h1{
+    font-size: 50px;
+}
+.border-world{
+  border-left: 4px solid rgb(255, 110, 110);
+  margin-right: 3px;
+  margin-left: 3px;
+  padding-left: 10px;
+}
+#Ab{ 
+    margin-top: 50px;
+}
+h2{
+    font-size:35px;
+}
+.color{
+    color:orange;
+}
+.paragraph{
+    margin-bottom: 30px;
+}
+.mission-topic{
+    text-align: center;
+}
+#card-box{
+    margin-bottom: 90px;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom:90px;
+}
+.half-width{
+    width:50%;
+    padding-left:2%;
+}
+.half-width img {
+    width:75%;
+}
+.image-size{
+    padding-left:10%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient( orange, tomato);
+    color:white;
+    font-weight:700;
+    padding: 10px 40px;
+    border-radius:5px;
+
+
+}
+.sec-one{
+    background-image:url(image/top-banner.png);
+    background-repeat: no-repeat;
+}
+.sec-two{
+    background-image:url(image/dream-bg.png);
+    background-repeat:no-repeat;
+    background-position:right;
+}
+.sec-three{
+    background-image:url(image/back.jpg);
+    background-repeat: no-repeat;
+    background-position:right;
+}
+.card-container{
+    box-sizing:border-box;
+    display:flex;
+    background-color:ivory;
+
+}
+.img{
+    width:100%;
+
+}
+.card{
+    margin:80px;
+    width:300px;
+    box-sizing: border-box;
+    box-shadow:2px 2px 5px black;
+}
+.cardbody{
+    padding: 5px;
+    background-color:darkorange;
+}
+.cardbody .cardtitle{
+    font-size:2rem;
+    text-align:center;
+    color:black;
+}
+.cardbody .carddetails{
+    text-align:justify;
+    line-height:1;
+    color:black;
+}
+.card:hover{
+    box-shadow:6px 8px 10px;
+    
+}
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    height:150px;
+    width: 100%;
+    background-color:rgba(23, 23, 83, 0.808);
+    color: white;
+    text-align: center;
+ }
+ .footer p{
+    font-size: 2.5rem;
+ }
